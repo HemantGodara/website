@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #4E6639;
+    color: white;
+}
+
+
+
+#home{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    background: url("assets/banner.png") top center no-repeat;
+    background-size: cover;
+    margin-top: -15px;
+}
+
+#title{
+    float: left; 
+    margin-left:50px; 
+    font-weight:600;
+}
+
+#title1{
+    text-align: center;
+    margin-top: 200px; 
+    font-size: 45px; 
+    font-weight: 100; 
+    color: #fe7b14;
+}
+
+#title2{
+    text-align: center;
+    font-size: 45px; 
+    color: #68B984;
+}
+
+
+#title3{
+    color: #fe7b14;
+    margin: 0px;
+    text-align:center;
+}
+
+#about{
+    display: flex;
+    justify-content:space-between;
+    flex-flow: wrap;
+}
+
+#about div { 
+    margin:0% 5%; 
+    font-size: 20px; 
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+#about img { 
+    flex-grow: 1;
+}
+
+/* Add style to <ul> tag */
+ul{
+    list-style: none;
+    font-size:16px;
+    width: 100%;
+    background-color: #304023;
+    padding: 10px 0px 10px 0px;
+    text-align: right;
+    position: sticky;
+    top: 0px;
+    
+}
+
+
+a{
+    margin-right: 40px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    /* Remove the underline from the links */
+    text-decoration: none;
+    /* Add transition property */
+    transition: 0.5s ease;
+  }
+
+    
+/* display the list items inline */
+li{
+    display: inline-block;
+}
+
+
+/* Use the hover pseudo class to apply folowing style when cursor is placed over the links under the <li> tag */
+a:hover{
+    color: #fe7b14;
+    background-color: #ffffff;
+}
